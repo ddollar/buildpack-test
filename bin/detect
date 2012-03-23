@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if [ -x bin/test ]; then
+  echo "Test"
+  exit 0
+fi
+
+exit 1
