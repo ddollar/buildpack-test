@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -x bin/test ]; then
+if [ -x $1/bin/test ]; then
   echo "Test"
   exit 0
 fi
