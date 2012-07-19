@@ -1,4 +1,8 @@
-#!/usr/bin/env bash
+#!/bin/bash
+
+# fail fast
+set -o errexit
+set -o pipefail
 
 function indent() {
   c='s/^/       /'
